@@ -168,7 +168,7 @@ https://github.com/chuntaro/NTEmacs64/issues/3
 
     IMEパッチを適用後 configure スクリプトを更新します。
 
-    $ CFLAGS='-Ofast -march=x86-64 -mtune=corei7 -static' ./configure --prefix=c:/emacs-25.2 \
+    $ CFLAGS='-Ofast -march=x86-64 -mtune=corei7 -static' ./configure --prefix=c:/emacs-26.3 \
       --without-dbus --without-compress-install --with-modules
 
     configure を実行します。
